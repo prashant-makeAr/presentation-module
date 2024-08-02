@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+.header {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:active {
+    opacity: .7;
+}
+
+.products-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    border: 1px solid #000;
+    border-radius: 8px;
+    margin: 2rem;
+    padding: 1rem;
+    padding-bottom: 0;
+
+}
+
+.all-products {
+    width: 35%;
+    height: 80dvh;
+    border-right: 1px solid #000;
+    text-align: center;
+    overflow: auto;
+}
+
+.single-product {
+    width: 75%;
+    height: 80dvh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    border-bottom: 1px solid #000;
+    padding-bottom: 1rem;
+}
+
+.single-product-name {
+    width: 90%;
+    background-color: #ddd;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.single-product-name:hover {
+    background-color: #1b1b1b;
+    color: #fff;
+}
+
+.selected-product {
+    background-color: #1b1b1b;
+    color: #fff;
+}
+
+.single-product-info-wrapper {
+    padding: 1rem;
+    flex: 1;
+    overflow: auto;
+}
+
+.single-product-info {
+    border: 1px solid #000;
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.hero-img {
+    height: 50%;
+    padding-top: 1rem;
+}
+
+.name,
+.price {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.available-colors {
+    padding: 20px 0;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    text-align: start;
+    padding: 1rem;
+}
+
+.features h1 {
+    padding-bottom: 20px;
+}
