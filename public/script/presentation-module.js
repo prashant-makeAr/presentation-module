@@ -1,7 +1,5 @@
 import { productsData } from "./data.js"
 
-console.log(productsData);
-
 let selectedProductId = productsData[0].id;
 let selectedProduct = productsData[0];
 
@@ -44,7 +42,7 @@ function renderSingleProduct() {
 
        <div class="available-colors">
            ${selectedProduct.availableColors.map(color => `
-                <span style="display: inline-block; background-color: ${color}; width: 30px; height: 30px; border-radius: 50%;"></span>
+                <span class="color" style="display: inline-block; background-color: ${color}; width: 30px; height: 30px; border-radius: 50%;"></span>
            `).join('')}
         </div>
 
