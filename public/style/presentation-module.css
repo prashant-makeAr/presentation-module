@@ -108,6 +108,7 @@ button:active {
 
 .available-colors {
     padding: 20px 0;
+    padding: 1rem;
 }
 
 .color {
@@ -194,6 +195,7 @@ button:active {
 .price,
 .features {
     margin: 20px 0;
+    padding: 1rem;
 }
 
 .color {
