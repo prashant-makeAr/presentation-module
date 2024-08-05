@@ -33,7 +33,7 @@ export const productsData = [
                 "Type": "Direct Cool(DC)",
                 "Capacity": 205,
                 "Cooling Technology": "Direct Cooling",
-                "Star Rating": "***",
+                "Star Rating": 3,
                 "Color": "Red Rose"
             },
             "Energy": {
@@ -93,7 +93,7 @@ export const productsData = [
                 "Type": "Direct Cool(DC)",
                 "Capacity": 215,
                 "Cooling Technology": "Direct Cooling",
-                "Star Rating": "***",
+                "Star Rating": 3,
                 "Color": "Marine Dahelia"
             },
             "Energy": {
@@ -155,7 +155,7 @@ export const productsData = [
                 "Type": "Direct Cool(DC)",
                 "Capacity": 205,
                 "Cooling Technology": "Direct Cooling",
-                "Star Rating": "***",
+                "Star Rating": 3,
                 "Color": "Red Rose"
             },
             "Energy": {
@@ -209,7 +209,7 @@ export const productsData = [
             "Basic info": {
                 "Capacity": 598,
                 "Price": 151290,
-                "Star Rating": "3 Star",
+                "Star Rating": 3,
                 "Gross Weight (kg)": 120,
                 "Net Weight": 108,
                 "Type": "Side by Side Refrigerator"

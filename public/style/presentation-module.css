@@ -91,6 +91,8 @@ button:active {
     height: 100%;
     width: 100%;
     overflow: auto;
+    text-align: start;
+    padding: 0 2rem;
 }
 
 .hero-img {
@@ -200,4 +202,20 @@ button:active {
     height: 30px;
     border-radius: 50%;
     margin-right: 5px;
+}
+
+.specifications {
+    padding: 1rem;
+}
+
+.specifications-category {
+    margin: 20px 0;
+}
+
+.specifications-category ul {
+    padding-left: 2rem;
+}
+
+li {
+    list-style-type: decimal;
 }
