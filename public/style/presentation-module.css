@@ -124,3 +124,80 @@ button:active {
 .features h1 {
     padding-bottom: 20px;
 }
+
+.carousel {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 2rem auto;
+    width: 75%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-container {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.carousel-inner img,
+.carousel-inner video {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 100%;
+    display: none;
+
+}
+
+.carousel-inner img.active,
+.carousel-inner video.active {
+    display: block;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev {
+    left: 100px;
+}
+
+.next {
+    right: 100px;
+}
+
+.name,
+.price,
+.features {
+    margin: 20px 0;
+}
+
+.color {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
