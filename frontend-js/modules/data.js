@@ -22,7 +22,7 @@ export const productsData = [
                 description: "Ensures even cooling throughout the refrigerator for optimal food preservation"
             }
         ],
-        imagesUrlArray: ["product-videos/12080885_3840_2160_30fps.mp4", "product-images/1.jpg", "product-images/2.jpg", "product-images/3.jpg"],
+        imagesUrlArray: ["product-videos/3444432-hd_1920_1080_30fps.mp4", "product-images/1.jpg", "product-images/2.jpg", "product-images/3.jpg"],
         specifications: {
             "Basic info": {
                 "Segment Type": "Direct Cool (DC)",
@@ -82,7 +82,7 @@ export const productsData = [
                 description: "Conveniently provides chilled water and ice cubes on demand"
             }
         ],
-        imagesUrlArray: ["product-images/4.jpg", "product-images/5.jpg", "product-images/6.jpg"],
+        imagesUrlArray: ["product-videos/3735225-hd_1920_1080_25fps.mp4", "product-images/4.jpg", "product-images/5.jpg", "product-images/6.jpg"],
         specifications: {
             "Basic info": {
                 "Segment Type": "Direct Cool (DC)",
@@ -144,7 +144,7 @@ export const productsData = [
                 description: "Adjusts cooling power based on usage patterns, enhancing efficiency and noise reduction"
             }
         ],
-        imagesUrlArray: ["product-images/7.jpg", "product-images/8.jpg", "product-images/9.jpg"],
+        imagesUrlArray: ["product-videos/5899471-uhd_4096_2160_30fps.mp4", "product-images/7.jpg", "product-images/8.jpg", "product-images/9.jpg"],
         specifications: {
             "Basic info": {
                 "Segment Type": "Direct Cool (DC)",
@@ -204,7 +204,7 @@ export const productsData = [
                 description: "Contain spills and make cleaning easier with their raised edges"
             }
         ],
-        imagesUrlArray: ["product-images/10.jpg", "product-images/11.jpg", "product-images/12.jpg"],
+        imagesUrlArray: ["product-videos/6262733-uhd_3840_2160_25fps.mp4", "product-images/10.jpg", "product-images/11.jpg", "product-images/12.jpg"],
         specifications: {
             "Basic info": {
                 "Capacity": 598,
